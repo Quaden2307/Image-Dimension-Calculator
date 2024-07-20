@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imagedimension.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Image Dimension Calculator</title>
+</head>
+<body>
+    <h1 id="Title" class="text">Calculate Image Dimensions:</h1>
+    <div id="box">
+        <div class="width">
+            <h1 id="widthlabel" class="text">Enter the image width below:</h1>
+            <input id="widthinput">
+        </div>
+        <div class="height">
+            <h1 id="heightlabel" class="text">Enter the image height below:</h1>
+            <input id="heightinput">
+        </div>
+        
+        <div class="desiredwidth">
+            <h1 id="desiredwidthlabel" class="text">Enter the desired width below:</h1>
+            <input id="desiredwidthinput">
+        </div>
+        <h1 id="or" class="text">OR</h1>
+        <div class="desiredheight">
+            <h1 id="desiredheightlabel" class="text">Enter the desired height below:</h1>
+            <input id="desiredheightinput">
+        </div>
+        <div class="result">
+            <h1 id="resultlabel" class="text"> Missing image dimension:</h1>
+            <h1 id="resulttext" class="text">? px</h1>
+        </div>
+        <button id="submitbutton">Submit</button>
+    </div>
+    
+    <script src="imagedimension.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+
+}
+
+.text{
+    font-family: "Montserrat", "sans-serif";
+    color: white;
+}
+
+#Title{
+   font-size: 80px;
+   font-family: "Montserrat", "sans-serif";
+   text-align: center;
+   animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+#box{
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    animation: boxglow 1s ease-in-out infinite alternate;
+
+}
+
+.width{
+    position: absolute;
+    top: 150px;
+    margin: 100px; 
+}
+
+#widthlabel{
+    content: Note;
+}
+
+#widthinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heightlabel{
+    content: Note;
+}
+
+.height{
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    margin: 100px;
+}
+
+.desiredwidth{
+    position: absolute;
+    top: 330px;
+    margin: 100px;
+}
+
+.desiredheight{
+    position: absolute;
+    top: 500px;
+    margin: 100px;
+}
+.result{
+    position: absolute;
+    margin: 100px;
+    top: 400px;
+    right: 100px;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+#submitbutton{
+    height: 100px;
+    width: 700px;
+    position: absolute;
+    top: 650px;
+    margin: 100px;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 60px;
+    font-weight: 800;
+    animation: glow 1s ease-in-out infinite alternate;
+    background-color: #2696bf;
+    border-width: 10px;
+}
+
+#or{
+    position:absolute;
+    top: 460px;
+    margin: 100px;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+
+
+
+
+
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #29a2cf
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #2696bf, 0 0 40px #2696bf
+    }
+  }
+
+@keyframes boxglow {
+    from {
+      box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #29a2cf
+    }
+    to {
+      box-shadow: 0 0 20px #fff, 0 0 30px #2696bf, 0 0 40px #2696bf
+    }
+  }
